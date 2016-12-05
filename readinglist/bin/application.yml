@@ -1,0 +1,32 @@
+spring:
+  thymeleaf:
+    cache: false
+
+    
+#server:
+#  port: 8443
+#  ssl:
+#    key-store: file:/Users/illy/Dev/keystore/mykeys.jks
+#    key-store-password: kjn1624
+#    key-password: kjn1624 
+# 
+  
+logging:
+  level:
+    root: WARN
+    org.springframework.security: DEBUG
+     
+amazon:
+  associateId: habuma-20
+  
+
+
+---
+
+spring:
+  profiles: development
+
+logging:
+  level:
+    root: DEBUG
+   
